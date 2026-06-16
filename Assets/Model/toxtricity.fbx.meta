@@ -46,7 +46,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Victoria
+      name: Victory
       takeName: Armature|Armature|pm0849_11_00_ba02_roar01|Base Layer
       internalID: 5348938841892286495
       firstFrame: 0
@@ -104,7 +104,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Ataque1
+      name: Attack1
       takeName: Armature|Armature|pm0849_11_00_ba20_buturi01|Base Layer
       internalID: -2799242456242756782
       firstFrame: 0
@@ -133,7 +133,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Ataque2
+      name: Attack2
       takeName: Armature|Armature|pm0849_11_00_ba21_tokusyu01|Base Layer
       internalID: -7759088171426413270
       firstFrame: 0
@@ -162,7 +162,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Muerte
+      name: Die
       takeName: Armature|Armature|pm0849_11_00_loop01|Base Layer
       internalID: 1761113643511289541
       firstFrame: 0
@@ -191,7 +191,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: "Da\xF1o"
+      name: Damage
       takeName: Armature|Armature|pm0849_11_00_ba21_tokusyu01|Base Layer
       internalID: 2537326975492658064
       firstFrame: 0
