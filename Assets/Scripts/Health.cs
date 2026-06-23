@@ -10,6 +10,8 @@ public class Health : MonoBehaviour
 
     private float currentHealth;
 
+    public float CurrentHealth => currentHealth;
+
     private float maxHealth;
 
     public float MaxHealth{ set { maxHealth = value; }}
@@ -20,7 +22,7 @@ public class Health : MonoBehaviour
 
     private UnityEvent onDie;
 
-    private void InitializeHealth()
+    public void InitializeHealth()
     {
         currentHealth = maxHealth;
     }

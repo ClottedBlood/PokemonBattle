@@ -1,10 +1,12 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class Fighter : MonoBehaviour
 {
 [SerializeField]
 
 private Animator animator;
+
+public Animator Animator => animator;
 [SerializeField]
 
 private Health health;
@@ -13,6 +15,8 @@ public Health Health => health;
 [SerializeField]
 
 private FighterData fighterData;
+
+public FighterData FighterData => fighterData;
 
 public void Awake()
     {
