@@ -12,6 +12,14 @@ public class FighterData : ScriptableObject
 
     public float chargeTime = 2f;
 
+    public GameObject appearParticles;
+
+    public string appearSoundName;
+
+    public string damageSoundName;
+
+    public string deadSoundName;
+
     public AttackData GetRandomAttack()
     {
         return attacks[Random.Range(0, attacks.Length)];
@@ -26,6 +34,8 @@ public class AttackData
     public string name;
 
     public string animationName;
+
+    public string attackSoundName;
 
     public float minDamage;
 

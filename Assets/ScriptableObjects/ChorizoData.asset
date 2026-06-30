@@ -17,13 +17,20 @@ MonoBehaviour:
   attacks:
   - name: Fire Punch
     animationName: Attack1
+    attackSoundName: Chorizo
     minDamage: 50
     maxDamage: 80
     chargeParticles: {fileID: 8172849020266659018, guid: 2af5562ce69fc2d448481a1587a352a5, type: 3}
     attackParticles: {fileID: 2504214343621411470, guid: 3ed0d324122d7b24eaec75c55c74aafc, type: 3}
   - name: Fire Power
     animationName: Attack2
+    attackSoundName: Chorizo2
     minDamage: 60
     maxDamage: 90
     chargeParticles: {fileID: 1206498299807332555, guid: af6c1e3f046eecd4d81330aeb285600f, type: 3}
     attackParticles: {fileID: 4593184484909914552, guid: 2e1e9506f5904a64b81744324fb7cd50, type: 3}
+  chargeTime: 2
+  appearParticles: {fileID: 2353600328335836179, guid: ceec7516237b4104b94300043ca39784, type: 3}
+  appearSoundName: EntradaChorizo
+  damageSoundName: Chorizo4
+  deadSoundName: Chorizo3
