@@ -17,20 +17,20 @@ MonoBehaviour:
   attacks:
   - name: Bubble atack
     animationName: Attack1
-    attackSoundName: 
+    attackSoundName: Atack1
     minDamage: 50
     maxDamage: 80
     chargeParticles: {fileID: 8620588918006998808, guid: 7f906c77905876d488e88e99d13c3d7d, type: 3}
     attackParticles: {fileID: 5137123306192418792, guid: 5a8d99fb95262ea458a7b580f2a1611c, type: 3}
   - name: Atack power
     animationName: Attack2
-    attackSoundName: 
+    attackSoundName: Atack2
     minDamage: 60
     maxDamage: 90
     chargeParticles: {fileID: 8771972552311404799, guid: bbf9e36a48d6c5648a13889afab076fd, type: 3}
     attackParticles: {fileID: 2353600328335836179, guid: ceec7516237b4104b94300043ca39784, type: 3}
   chargeTime: 2
   appearParticles: {fileID: 5137123306192418792, guid: 5a8d99fb95262ea458a7b580f2a1611c, type: 3}
-  appearSoundName: 
-  damageSoundName: 
-  deadSoundName: 
+  appearSoundName: Entrada
+  damageSoundName: "Da\xF1o"
+  deadSoundName: Murio

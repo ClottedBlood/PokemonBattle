@@ -9,12 +9,20 @@ public class Timer : MonoBehaviour
     [SerializeField]
 
     private TimerData[] timerData;
+    
+
+    private Animator animator;
     [SerializeField]
 
     private Image timerImage;
     [SerializeField]
 
     private UnityEvent onTimerEnd;
+
+    private void Awake()
+    {
+        animator = timerImage.GetComponent<Animator>();
+    }
 
     public void StartTimer(int duration)
     {
@@ -27,6 +35,8 @@ public class Timer : MonoBehaviour
         {
             SoundManager.instance.Play(timerData[duration - 1]. soundName);
             timerImage.sprite = timerData[duration -1].texture;
+            timerImage.SetNativeSize();
+            animator.Play("Show",0,0f);
             yield return new WaitForSeconds(1f);
             duration--;
         }
@@ -35,6 +45,7 @@ public class Timer : MonoBehaviour
 
     public void StopTimer()
     {
+        animator.Play("Hiden",0,0f);
         StopAllCoroutines();
     }
 }
