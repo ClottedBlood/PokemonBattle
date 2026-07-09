@@ -25,7 +25,7 @@ public class FightManager : MonoBehaviour
     private int minimumFighters = 2;
     [SerializeField]
 
-    private int maximumFighters = 2;
+    private int maximumFighters = 3;
     [SerializeField]
 
     private PoolManager poolManager;
