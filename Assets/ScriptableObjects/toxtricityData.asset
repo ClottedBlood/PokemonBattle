@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0892cf0eb6c694b9806e3f1ee9dece, type: 3}
   m_Name: toxtricityData
   m_EditorClassIdentifier: Assembly-CSharp::FighterData
-  maxHealth: 0
+  maxHealth: 200
   fighterName: 
   attacks:
   - name: Bubble atack
@@ -20,17 +20,17 @@ MonoBehaviour:
     attackSoundName: Atack1
     minDamage: 50
     maxDamage: 80
-    chargeParticles: {fileID: 8620588918006998808, guid: 7f906c77905876d488e88e99d13c3d7d, type: 3}
-    attackParticles: {fileID: 5137123306192418792, guid: 5a8d99fb95262ea458a7b580f2a1611c, type: 3}
-  - name: Atack power
+    chargeParticles: {fileID: 9157105887711914197, guid: c4f829cb7dd4b864caf8832ec5b1ee55, type: 3}
+    attackParticles: {fileID: 7177991128484655659, guid: 59a35ab9f68edff40b6e5332bed330f5, type: 3}
+  - name: Atack  Luk
     animationName: Attack2
     attackSoundName: Atack2
     minDamage: 60
     maxDamage: 90
-    chargeParticles: {fileID: 8771972552311404799, guid: bbf9e36a48d6c5648a13889afab076fd, type: 3}
-    attackParticles: {fileID: 2353600328335836179, guid: ceec7516237b4104b94300043ca39784, type: 3}
+    chargeParticles: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
+    attackParticles: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
   chargeTime: 2
-  appearParticles: {fileID: 5137123306192418792, guid: 5a8d99fb95262ea458a7b580f2a1611c, type: 3}
-  appearSoundName: Entrada
-  damageSoundName: "Da\xF1o"
-  deadSoundName: Murio
+  appearParticles: {fileID: 3432958286849152088, guid: 87ee7299dd44ed747af24dbb91bcd33b, type: 3}
+  appearSoundName: ChargeL
+  damageSoundName: DamageL
+  deadSoundName: DieL

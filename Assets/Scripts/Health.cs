@@ -25,6 +25,7 @@ public class Health : MonoBehaviour
     public void InitializeHealth()
     {
         currentHealth = maxHealth;
+        UpdateBar();
     }
 
     public void UpdateBar()
