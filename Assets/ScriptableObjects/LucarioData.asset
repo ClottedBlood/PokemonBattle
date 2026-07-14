@@ -16,7 +16,7 @@ MonoBehaviour:
   fighterName: 
   attacks:
   - name: Lucario
-    animationName: Attack1L
+    animationName: Attack1
     attackSoundName: attack1L
     minDamage: 60
     maxDamage: 80
